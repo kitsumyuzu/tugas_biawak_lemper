@@ -125,3 +125,8 @@ nb-configuration.xml
 /results/
 /phpunit*.xml
 /.phpunit.*.cache
+
+# Hidden Files
+
+.vscode
+.vscode/settings.json

@@ -1,57 +1,25 @@
-# CodeIgniter 4 Framework
+<a href="#"><img src="https://media.discordapp.net/attachments/1023935690318303282/1081246535876083832/Banner.png" alt="banner_image"></a>
 
-## What is CodeIgniter?
+<h2 align="center"> Overview </h2>
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
-More information can be found at the [official site](http://codeigniter.com).
+Hello everyone, welcome to "tugas_biawak_lemper" Github repository. So on this repository page we will discuss about creating a website template with an information system theme. This repository will focus on using the framework from CodeIgniter 4 and using the PHP programming language.
 
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the 
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+<h2 align="center"> Definition </h2>
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+Web-based information system is a component that is interconnected with one another.
+Has the function and ability to collect, process, store and convey information in the form of sound, images, text, and information presented in the form of hypertext.
+In addition, web-based information systems can also be accessed by other software to support each activity or organization in achieving the intended use of the system.
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/). 
+CodeIgniter is an open source application in the form of a PHP framework with an MVC (Model, View, Controller) model for building dynamic websites using PHP.
 
+<h2 align="center"> How to use </h2>
 
-## Important Change with index.php
+Please make sure that you already had all application installed to be working on this project. [Visual Studio Code](https://code.visualstudio.com/download), [Git](https://git-scm.com/downloads), [Xampp](https://www.apachefriends.org/download.html).
+- Open your Git Bash application, use the following commands `git clone https://github.com/Myucisko/tugas_biawak_lemper`.
+- Move the folder that you already clone into the folder of your **xampp\htdocs** directory.
+- Open the folder that you already cloned with Visual Studio Code.
+- You can start debugging with `php spark serve`.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+<h2 align="center"> How to contribute </h2>
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-The user guide updating and deployment is a bit awkward at the moment, but we are working on it!
-
-## Repository Management
-
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script. 
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.2 or higher is required, with the following extensions installed: 
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+Please contact the developer on Discord `Kitsumyuzu#0430` for access into the repository project. You can also join our community server [here](https://discord.gg/CyG7rH5xS5).
